@@ -1,0 +1,9 @@
+task_description: Answer questions about coffee brewing methods
+created_by: your_name
+seed_examples:
+  - question: How long should I steep coffee in a French press?
+    answer: Steep French press coffee for 4 minutes for optimal extraction.
+  - question: What grind size is best for French press?
+    answer: Use a coarse grind for French press to prevent over-extraction.
+  - question: What's the ideal water temperature for brewing coffee?
+    answer: The ideal water temperature is 200°F (93°C), just off boiling.
