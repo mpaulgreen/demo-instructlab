@@ -1,0 +1,65 @@
+version: 3
+domain: trivia
+document_outline: Record-breaking Las Vegas slot machine jackpots and winners
+created_by: cedricclyburn
+seed_examples:
+  - context: |
+      The largest slot machine jackpot in Las Vegas history was won at the Excalibur Hotel-Casino.
+      A 25-year-old software engineer from Los Angeles won $39,713,982.25 on March 21, 2003,
+      after putting just $100 into a Megabucks machine.
+    questions_and_answers:
+      - question: When and where was the biggest Las Vegas slot machine jackpot won?
+        answer: |
+          The biggest Las Vegas slot jackpot of $39,713,982.25 was won on March 21, 2003 on a
+          Megabucks machine at the Excalibur Hotel-Casino in Las Vegas, Nevada, USA.
+      - question: How much money did the winner put in the slot machine before hitting the record jackpot?
+        answer: The winner put $100 into the Megabucks machine before winning the $39,713,982.25 jackpot.
+      - question: What was the occupation and hometown of the winner of the largest Vegas slot jackpot?
+        answer: |
+          The winner of the $39,713,982.25 Megabucks jackpot in 2003 was a 25-year-old software
+          engineer from Los Angeles.
+  - context: |
+      Las Vegas slot machines have produced many record-breaking payouts, with the largest being
+      $39,713,982.25. Currency conversion data shows this jackpot's value in other currencies.
+    questions_and_answers:
+      - question: What is the exact amount of the largest slot machine payout in Las Vegas?
+        answer: The largest slot machine payout in Las Vegas is $39,713,982.25.
+      - question: How much was the record-breaking Las Vegas jackpot worth in British pounds?
+        answer: The $39,713,982.25 jackpot won in Las Vegas on March 21, 2003 was equivalent to £25,361,761.
+      - question: What type of slot machine was used for the record-breaking jackpot?
+        answer: The record-breaking jackpot was won on a Megabucks slot machine.
+  - context: |
+      The Megabucks jackpot system is progressive, building up over time as players across multiple
+      casinos contribute to the prize pool. The odds of winning are extremely low.
+    questions_and_answers:
+      - question: What makes the Megabucks jackpot so large?
+        answer: Megabucks is a progressive jackpot system that builds up over time as players across multiple casinos contribute to the prize pool.
+      - question: How often does someone win the Megabucks jackpot?
+        answer: The Megabucks jackpot is extremely rare to win, with odds of approximately 1 in 50 million.
+      - question: Are there other large jackpots besides the record-breaking one?
+        answer: Yes, Megabucks has produced several multi-million dollar jackpots over the years, though none as large as the 2003 record.
+  - context: |
+      Slot machine jackpots in Las Vegas vary greatly, from small local progressive machines to
+      massive networked systems like Megabucks that span multiple properties.
+    questions_and_answers:
+      - question: What's the difference between local and networked progressive jackpots?
+        answer: Local progressives are limited to one casino, while networked systems like Megabucks connect machines across multiple properties for larger prizes.
+      - question: How do progressive slot machines accumulate their jackpots?
+        answer: Progressive machines take a small percentage of each bet and add it to the jackpot pool, which grows until someone wins.
+      - question: Are all Las Vegas slot machines progressive?
+        answer: No, Las Vegas has both progressive and fixed-payout slot machines, with progressives offering the chance at larger jackpots.
+  - context: |
+      Las Vegas has strict regulations governing slot machine payouts and jackpot verification.
+      All major jackpots must be verified by gaming officials before being awarded to winners.
+    questions_and_answers:
+      - question: How are large slot machine jackpots verified in Las Vegas?
+        answer: Large jackpots must be verified by Nevada Gaming Control Board officials to ensure the win is legitimate before being paid out.
+      - question: How long does it take to receive a large jackpot payout?
+        answer: Large jackpots typically take several days to weeks to be fully verified and paid out to winners.
+      - question: What documentation is required to claim a large Las Vegas jackpot?
+        answer: Winners must provide government-issued photo ID, Social Security card, and complete tax forms to claim large jackpots.
+document:
+  repo: https://github.com/cedricclyburn/las-vegas-gambling-knowledge.git
+  commit: 2f3b881
+  patterns:
+    - biggest_vegas_jackpots.md
